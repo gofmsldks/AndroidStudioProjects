@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/table_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    android:visibility="visible"
+    tools:visibility="visible">
+<View
+    android:layout_width="match_parent"
+    android:layout_height="10dp"
+    />
+    <TableRow>
+
+        <TextView
+            android:background="#CDDC39"
+            android:text="id"
+            android:textStyle="bold" />
+
+        <TextView
+            android:background="#3F51B5"
+            android:text="name"
+            android:textStyle="bold" />
+
+        <TextView
+            android:background="#00BCD4"
+            android:text="email"
+            android:textStyle="bold" />
+
+        <TextView
+            android:background="#FFEB3B"
+            android:text="position"
+            android:textStyle="bold" />
+
+        <TextView
+            android:background="#009688"
+            android:text="age"
+            android:textStyle="bold" />
+
+        <TextView
+            android:background="#FF5722"
+            android:text="phoneNumber"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+
+</TableLayout>
+

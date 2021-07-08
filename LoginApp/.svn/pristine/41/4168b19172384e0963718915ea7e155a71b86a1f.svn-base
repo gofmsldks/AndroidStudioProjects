@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome!"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Welcome!" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="30dp">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="74dp"
+            android:layout_height="81dp"
+            app:srcCompat="@android:drawable/ic_dialog_email"
+            tools:layout_editor_absoluteX="57dp"
+            tools:layout_editor_absoluteY="190dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="74dp"
+            android:layout_height="81dp"
+            app:srcCompat="@android:drawable/ic_menu_call"
+            tools:layout_editor_absoluteX="177dp"
+            tools:layout_editor_absoluteY="190dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="74dp"
+            android:layout_height="81dp"
+            app:srcCompat="@android:drawable/ic_menu_gallery"
+            tools:layout_editor_absoluteX="297dp"
+            tools:layout_editor_absoluteY="190dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="30dp">
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="74dp"
+            android:layout_height="81dp"
+            app:srcCompat="@android:drawable/stat_sys_headset" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="74dp"
+            android:layout_height="81dp"
+            app:srcCompat="@android:drawable/ic_dialog_map"
+            tools:layout_editor_absoluteX="57dp"
+            tools:layout_editor_absoluteY="190dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="74dp"
+            android:layout_height="81dp"
+            app:srcCompat="@android:drawable/stat_sys_data_bluetooth"
+            tools:layout_editor_absoluteX="177dp"
+            tools:layout_editor_absoluteY="190dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
