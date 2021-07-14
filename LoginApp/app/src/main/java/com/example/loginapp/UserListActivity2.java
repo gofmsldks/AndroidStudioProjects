@@ -50,7 +50,7 @@ public class UserListActivity2 extends AppCompatActivity {
                 // intent 객체에 데이터를 실어서 보내기
                 // 리스트뷰 클릭시 인텐트 (Intent) 생성하고 position 값을 이용하여 인텐트로 넘길값들을 넘긴다
                 intent.putExtra("email", al.get(position).getEmail());
-                intent.putExtra("age",  Integer.toString(al.get(position).getAge()));
+                intent.putExtra("age",  al.get(position).getAge());
                 intent.putExtra("phoneNumber", al.get(position).getPhoneNumber());
 
                 startActivity(intent);

@@ -22,7 +22,7 @@ public class UserListDTO implements Serializable {
     private String position;
 
     @SerializedName("age")
-    private int age;
+    private String age;
 
     @SerializedName("phoneNumber")
     private String phoneNumber;
@@ -47,7 +47,7 @@ public class UserListDTO implements Serializable {
         this.position = position;
     }
 
-    public void setAge(int age) {
+    public void setAge(String age) {
         this.age = age;
     }
 
@@ -75,7 +75,7 @@ public class UserListDTO implements Serializable {
         return position;
     }
 
-    public int getAge() {
+    public String getAge() {
         return age;
     }
 
